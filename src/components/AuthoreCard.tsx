@@ -8,6 +8,7 @@ export default function AuthorCard() {
           className="w-16 h-16 rounded-full mr-4 object-cover border-2 border-red-500"
           src="/images/pic.png"
           alt="Author Image"
+          
         />
         <div>
           <h3 className="text-xl font-bold"> Sehrish Munir</h3>

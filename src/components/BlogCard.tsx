@@ -3,7 +3,7 @@ import { Card, CardContent, CardTitle } from "../components/ui/card";
 
  interface BlogCardProps {
   post: {id: string; title: string; description: string; date: string; image: string };
-  isDarkBackgrond: Boolean;
+  isDarkBackgrond: boolean;
 }
  
 export default function BlogCard({ post, isDarkBackgrond}: BlogCardProps) {
@@ -13,6 +13,7 @@ export default function BlogCard({ post, isDarkBackgrond}: BlogCardProps) {
     src={post.image}
     alt={post.title}
     className='w-full h-48 object-cover rounded-t-lg'
+   
     /> 
 
     <CardTitle className='text-xl font-normal mt-4 text-center'> {post.title}</CardTitle>

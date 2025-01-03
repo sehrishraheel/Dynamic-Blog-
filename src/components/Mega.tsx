@@ -11,7 +11,6 @@ export default function Mega() {
       date: "2024-12-29",
       image: "../images/img1.jpg",
     },
-
     {
       id: "2",
       title: "Blockchain: Revolutionizing Trust and Transparency",
@@ -20,7 +19,6 @@ export default function Mega() {
       date: "2024-12-30",
       image: "../images/img5.jpg",
     },
-
     {
       id: "3",
       title: "Web Development: Crafting the Digital World",
@@ -29,7 +27,6 @@ export default function Mega() {
       date: "2024-12-31",
       image: "../images/img4.jpg",
     },
-
     {
       id: "4",
       title: "Deep Learning: Unlocking the Power of Neural Networks",
@@ -38,32 +35,30 @@ export default function Mega() {
       date: "2025-01-01",
       image: "../images/img3.jpg",
     },
-
     {
       id: "5",
       title: "Machine Learning: Teaching Machines to Think",
       description:
         "Explore the fascinating field of machine learning and understand how algorithms learn from data. Discover its applications, techniques, and the impact it has on shaping modern technology.",
       date: "2025-01-02",
-      image: "../images/img6.png",
+      image: "../images/img6.jpg",
     },
   ];
+
   return (
-    <div className="my-8">
-      <h1 className="text-3xl font-bold-center my-8 text-red-600 animate-color-change">
-        {" "}
+    <div className="my-8 px-4">
+      {/* Header Section */}
+      <h1 className="text-3xl font-bold text-center my-8 text-red-600 animate-color-change">
         Exploring the World of AI and Technology
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {posts.map((post, index) => (
-          <div className="fade-in" key={post.id}>
-            <div className="blog-card">
-              <BlogCard post={post} isDarkBackgrond={index % 2 ===0}/>
 
-            </div>
+      {/* Blog Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {posts.map((post, index) => (
+          <div key={post.id} className="fade-in">
+            <BlogCard post={post} isDarkBackgrond={index % 2 === 0} />
           </div>
         ))}
-
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ export default function Feature() {
           Chronicles Blog!
         </h2>
 
-        <p className="text-center m-4 mt-4 text-sm text-black sm:text-base md:mb-12 lg:mb-16 animate-fade-in-up default:delay-100">In a world where technology is constantly evolving, Sehrish Muneer stands as a guiding force, uncovering the mysteries and intricacies of the digital landscape. Through her insightful Tech Chronicles Blog, she shares her expertise and deep understanding of the ever-changing tech world. Whether it's exploring cutting-edge innovations or delving into the complexities of emerging technologies, Sehrish&pops perspective offers a fresh lens through which readers can navigate the future of tech. Join her as she explores the breakthroughs, challenges, and hidden gems of the technological universe, all while offering readers practical insights and inspiration.
+        <p className="text-center m-4 mt-4 text-sm text-black sm:text-base md:mb-12 lg:mb-16 animate-fade-in-up default:delay-100">In a world where technology is constantly evolving, Sehrish Muneer stands as a guiding force, uncovering the mysteries and intricacies of the digital landscape. Through her insightful Tech Chronicles Blog, she shares her expertise and deep understanding of the ever-changing tech world. Whether it&aposs exploring cutting-edge innovations or delving into the complexities of emerging technologies, Sehrish&pops perspective offers a fresh lens through which readers can navigate the future of tech. Join her as she explores the breakthroughs, challenges, and hidden gems of the technological universe, all while offering readers practical insights and inspiration.
 
 </p>
 
